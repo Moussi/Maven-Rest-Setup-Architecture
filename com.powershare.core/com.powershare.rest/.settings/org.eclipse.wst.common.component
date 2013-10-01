@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+  <wb-module deploy-name="com.powershare.rest">
+        <dependent-module archiveName="com.powershare.bl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.powershare.bl/com.powershare.bl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.powershare.dal-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.powershare.dal/com.powershare.dal">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.powershare.dom-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.powershare.dom/com.powershare.dom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    <property name="context-root" value="com.powershare.rest"/>
+    <property name="java-output-path" value="/target/classes"/>
+    <wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+  </wb-module>
+</project-modules>
